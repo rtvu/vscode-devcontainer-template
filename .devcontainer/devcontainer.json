@@ -1,0 +1,6 @@
+{
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "project",
+  "workspaceFolder": "/home/user/project",
+  "initializeCommand": "./generate_environment"
+}
