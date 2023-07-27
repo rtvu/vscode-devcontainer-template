@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-
-SCRIPT_DIRECTORY=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
-PROJECT_NAME=$(basename "${SCRIPT_DIRECTORY}")
-
-${SCRIPT_DIRECTORY}/generate_environment
-docker-compose --file ${SCRIPT_DIRECTORY}/docker-compose.yml up --detach
-docker attach ${PROJECT_NAME}_project_1
-docker-compose --file ${SCRIPT_DIRECTORY}/docker-compose.yml down

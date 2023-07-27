@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-SCRIPT_DIRECTORY=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
-
-${SCRIPT_DIRECTORY}/generate_environment
-docker-compose --file ${SCRIPT_DIRECTORY}/docker-compose.yml build --pull
