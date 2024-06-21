@@ -2,11 +2,18 @@
 
 Template for a VS Code devcontainer.
 
-# Scripts
+# Placeholder Project Name
 
-* `docker/build-container` - builds the container
-* `docker/launch-container` - launches the container
+`---PROJECT---` is used as a placeholder in several files. Search and replace all instances with the name of the project.
 
-# Placeholders
+# Getting Started
 
-* `---PROJECT---` - `.devcontainer/devcontainer.json`
+To run with Docker CLI:
+
+1. Run `docker/build`.
+2. Run `docker/launch`.
+
+To run with VSCode Dev Containers:
+
+1. Run `docker/build`.
+2. In VSCode, run `Reopen in Container`.
