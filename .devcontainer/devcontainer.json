@@ -1,6 +1,6 @@
 {
   "name": "PROJECT",
-  "dockerComposeFile": "../docker/docker-compose.yml",
+  "dockerComposeFile": "../docker/compose.yaml",
   "service": "main",
   "workspaceFolder": "/home/user/workspace"
 }
