@@ -9,4 +9,4 @@ Template for a VS Code devcontainer.
 
 # Placeholders
 
-* `PROJECT` - `.devcontainer/devcontainer.json`
+* `---PROJECT---` - `.devcontainer/devcontainer.json`
