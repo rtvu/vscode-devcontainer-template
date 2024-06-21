@@ -4,7 +4,7 @@ Template for a VS Code devcontainer.
 
 # Placeholder Project Name
 
-`---PROJECT---` is used as a placeholder in several files. Search and replace all instances with the name of the project.
+`placeholder-project-name` is used as a placeholder in several files. Search and replace all instances with the name of the project.
 
 # Getting Started
 

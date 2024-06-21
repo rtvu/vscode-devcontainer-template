@@ -1,5 +1,5 @@
 {
-  "name": "---PROJECT---",
+  "name": "placeholder-project-name",
   "dockerComposeFile": "../docker/compose.yaml",
   "service": "main",
   "workspaceFolder": "/home/user/workspace"
