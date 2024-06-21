@@ -1,6 +1,6 @@
-# VS Code Devcontainer Template
+# VS Code Dev Container Template
 
-Template for a VS Code devcontainer.
+Template for a VS Code Dev Container.
 
 # Placeholder Project Name
 
@@ -13,7 +13,7 @@ To run with Docker CLI:
 1. Run `docker/build`.
 2. Run `docker/launch`.
 
-To run with VSCode Dev Containers:
+To run with VS Code Dev Containers:
 
 1. Run `docker/build`.
-2. In VSCode, run `Reopen in Container`.
+2. In VS Code, run `Reopen in Container`.
