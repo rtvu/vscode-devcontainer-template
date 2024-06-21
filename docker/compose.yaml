@@ -1,8 +1,10 @@
+name: placeholder-project-name
 services:
   main:
     build:
       context: ..
       dockerfile: docker/Dockerfile
+    hostname: placeholder-project-name
     stdin_open: true
     tty: true
     volumes:
